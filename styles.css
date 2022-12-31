@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    background-color: hsl(212, 45%, 89%);
+    grid-template-rows: 100vh;
+    grid-template-columns: 100vw;
+    text-align: center;
+}
+
+.card {
+    justify-self: center;
+    align-self: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 275px;
+    height: 450px;
+    border-radius: 1rem;
+}
+
+.card > img {
+    width: 250px;
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 1rem;
+}
